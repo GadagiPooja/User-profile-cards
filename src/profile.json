@@ -1,0 +1,72 @@
+[
+    {
+      "id": 1,
+      "name": "Jeffrey Abrams",
+      "age": 51,
+      "location": "New York, United States",
+      "role": "Film Director, Producer",
+      "skills": ["Directing", "Producing", "Writing"],
+      "hourlyRate": 14,
+      "isOnline": true,
+      "imageUrl": "https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?size=338&ext=jpg&ga=GA1.1.2008272138.1726790400&semt=ais_hybrid"
+    },
+    {
+      "id": 2,
+      "name": "Baltasar Kormákur",
+      "age": 52,
+      "location": "Reykjavik, Iceland",
+      "role": "Actor, Film Director",
+      "skills": ["Acting", "Directing", "Producing"],
+      "hourlyRate": 9,
+      "isOnline": false,
+      "lastSeen": "2023-09-19T15:00:00Z",
+      "imageUrl": "https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?size=338&ext=jpg&ga=GA1.1.2008272138.1726790400&semt=ais_hybrid"
+    },
+    {
+      "id": 3,
+      "name": "Greta Gerwig",
+      "age": 39,
+      "location": "Sacramento, United States",
+      "role": "Director, Screenwriter",
+      "skills": ["Directing", "Screenwriting", "Acting"],
+      "hourlyRate": 18,
+      "isOnline": true,
+      "imageUrl": "https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?size=338&ext=jpg&ga=GA1.1.2008272138.1726790400&semt=ais_hybrid"
+    },
+    {
+      "id": 4,
+      "name": "Taika Waititi",
+      "age": 48,
+      "location": "Wellington, New Zealand",
+      "role": "Actor, Director",
+      "skills": ["Acting", "Directing", "Writing"],
+      "hourlyRate": 12,
+      "isOnline": false,
+      "lastSeen": "2023-09-16T09:00:00Z",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShQGpmSye-ONz-pfofohgt_pJnwLVJ5KB8wQ&s"
+    },
+    {
+      "id": 5,
+      "name": "Chloe Zhao",
+      "age": 41,
+      "location": "Beijing, China",
+      "role": "Director, Writer",
+      "skills": ["Directing", "Screenwriting"],
+      "hourlyRate": 20,
+      "isOnline": true,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShQGpmSye-ONz-pfofohgt_pJnwLVJ5KB8wQ&s"
+    },
+    {
+      "id": 6,
+      "name": "David Fincher",
+      "age": 61,
+      "location": "Denver, United States",
+      "role": "Director, Producer",
+      "skills": ["Directing", "Producing"],
+      "hourlyRate": 25,
+      "isOnline": false,
+      "lastSeen": "2023-09-10T08:00:00Z",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShQGpmSye-ONz-pfofohgt_pJnwLVJ5KB8wQ&s"
+    }
+  ]
+  
