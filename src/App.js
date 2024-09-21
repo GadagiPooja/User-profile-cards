@@ -1,39 +1,31 @@
-// src/App.js
 import React from 'react';
 import ProfileCard from './Component/ProfileCard';
+import './App.css';
 
 function App() {
-  const profiles = [
-    {
-      name: 'Jeffrey Abrams',
-      age: 51,
-      location: 'New York, United States',
-      role: 'Film Director, Producer',
-      rate: '€14',
-      description: 'Abrams was born in New York City and raised in Los Angeles.',
-      status: 'https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?size=338&ext=jpg&ga=GA1.1.2008272138.1726790400&semt=ais_hybrid',
-      online: true,
-    },
-    {
-      name: 'Pooja Gadagi',
-      age: 21,
-      location: 'Reykjavik, Iceland',
-      role: 'Actor, Film Director',
-      rate: '€9',
-      description: 'Icelandic actor, theater and film director, and film producer.',
-      status: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShQGpmSye-ONz-pfofohgt_pJnwLVJ5KB8wQ&s',
-      lastSeen: '17 minutes ago',
-      online: false,
-    }
-  ];
+  const now = new Date();
+  const threeHoursAgo = new Date(now.getTime() - 3 * 60 * 60 * 1000); // 3 hours ago
+  // const twoDaysAgo = new Date(now.getTime() - 2 * 24 * 60 * 60 * 1000); // 2 days ago
+  const eightDaysAgo = new Date(now.getTime() - 8 * 24 * 60 * 60 * 1000); // 8 days ago
 
   return (
-    <div className="app">
-      <div className="profiles-container">
-        {profiles.map((profile, index) => (
-          <ProfileCard key={index} {...profile} />
-        ))}
-      </div>
+    <div className="cards-container">
+      <ProfileCard 
+        imageUrl="https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?size=338&ext=jpg&ga=GA1.1.2008272138.1726790400&semt=ais_hybrid" 
+        name="John Doe" 
+        role="Software Engineer" 
+        skills={['JavaScript', 'React', 'Node.js']} 
+        isOnline={true} 
+        lastSeen={threeHoursAgo} 
+      />
+      <ProfileCard 
+        imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShQGpmSye-ONz-pfofohgt_pJnwLVJ5KB8wQ&s" 
+        name="Jane Smith" 
+        role="UI/UX Designer" 
+        skills={['Figma', 'Sketch', 'Adobe XD']} 
+        isOnline={false} 
+        lastSeen={eightDaysAgo} 
+      />
     </div>
   );
 }
